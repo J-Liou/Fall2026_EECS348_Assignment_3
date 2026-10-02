@@ -71,7 +71,7 @@ private: //private members
 
 
 public:     // public members
-//CHANGE TO SPACE COMPLEXITY
+//CHANGE TO SPACE COMPLEXITY: ChatGPT
     Email(const string& sender, const string& subject, const string& date) //params are pass by reference
         : sender(sender), subject(subject), date(date) { //initializer list
 
@@ -146,7 +146,7 @@ public:     // public members
 //    }
 };
 
-//CHANGE TO LINKED HEAP : ChatGPT
+//CHANGE MAXHEAP TO LINKED HEAP : ChatGPT
 class MaxHeap { //maxheap class
 private: //private members
     struct Node { //node for one email
